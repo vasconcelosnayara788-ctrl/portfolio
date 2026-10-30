@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfólio pessoal da Amanda, com seus projetos, habilidades e criatividade.">
+
+    <title>Amanda | Meu Portfólio</title>
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <!-- CORAÇÕES DECORATIVOS -->
+    <div class="decoracao coracao-1" aria-hidden="true">♡</div>
+    <div class="decoracao coracao-2" aria-hidden="true">♥</div>
+    <div class="decoracao coracao-3" aria-hidden="true">♡</div>
+
+    <!-- CABEÇALHO -->
+    <header class="cabecalho">
+        <a href="#inicio" class="logo">♡ Amanda<span>.dev</span></a>
+
+        <button class="menu-toggle" id="menuToggle"
+                type="button" aria-label="Abrir menu"
+                aria-expanded="false" aria-controls="menu">
+            ☰
+        </button>
+
+        <nav class="menu" id="menu" aria-label="Menu principal">
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre mim</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+
+        <button class="tema-toggle" id="temaToggle" type="button"
+                aria-label="Ativar tema escuro">
+            🌙
+        </button>
+    </header>
+
+    <main>
+        <!-- INÍCIO -->
+        <section class="inicio section" id="inicio">
+            <div class="inicio-texto">
+                <p class="etiqueta">♡ Seja bem-vindo ao meu cantinho</p>
+
+                <p class="saudacao" id="saudacao">Olá! Que bom ter você aqui.</p>
+
+                <h1>Eu sou <span class="rosa">Amanda</span><span class="ponto">.</span></h1>
+
+                <p class="idade">♡ 15 anos</p>
+
+                <h2>Um pouco de criatividade, cores e tecnologia.</h2>
+
+                <p class="descricao">
+                    Este é meu espaço para compartilhar meus projetos,
+                    minhas habilidades e um pouquinho do que gosto de fazer.
+                    Tudo feito com carinho e criatividade!
+                </p>
+
+                <div class="botoes-inicio">
+                    <a href="#projetos" class="botao botao-principal">
+                        Conheça meus projetos ♡
+                    </a>
+
+                    <a href="#sobre" class="botao botao-secundario">
+                        Sobre mim
+                    </a>
+                </div>
+
+                <button class="botao-carinho" id="botaoCarinho" type="button">
+                    ♥ Envie um carinho
+                </button>
+            </div>
+
+            <div class="inicio-visual" aria-label="Decoração com corações">
+                <div class="circulo-grande">
+                    <div class="cartao-central">
+                        <span class="icone-central">♡</span>
+                        <p>feito com carinho</p>
+                        <span class="mini-texto">by Amanda</span>
+                    </div>
+
+                    <span class="coracao-flutuante coracao-a">♥</span>
+                    <span class="coracao-flutuante coracao-b">♡</span>
+                    <span class="estrela estrela-a">✦</span>
+                    <span class="estrela estrela-b">✧</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE MIM -->
+        <section class="section reveal" id="sobre">
+            <div class="titulo-secao">
+                <p class="etiqueta">♡ Um pouquinho de mim</p>
+                <h2>Sobre <span class="rosa">mim</span></h2>
+            </div>
+
+            <div class="sobre-cartao">
+                <div class="sobre-icone">🌷</div>
+
+                <div>
+                    <h3>Prazer, eu sou a Amanda!</h3>
+                    <p>
+                        Este espaço é para contar um pouco sobre mim,
+                        meus gostos, minhas ideias e meus objetivos.
+                        Aos poucos, vou acrescentar aqui mais detalhes
+                        sobre minha história.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section class="section reveal" id="habilidades">
+            <div class="titulo-secao">
+                <p class="etiqueta">♡ Coisas que sei fazer</p>
+                <h2>Minhas <span class="rosa">habilidades</span></h2>
+                <p class="texto-secao">
+                    Algumas coisas que gosto de fazer e aprender.
+                </p>
+            </div>
+
+            <div class="habilidades-grid">
+                <article class="habilidade-card">
+                    <div class="habilidade-icone">🎨</div>
+                    <h3>Pintura</h3>
+                    <p>Tenho facilidade para pintar e expressar minha criatividade através das cores.</p>
+                    <span class="habilidade-tag">Criatividade</span>
+                </article>
+
+                <article class="habilidade-card">
+                    <div class="habilidade-icone">🌐</div>
+                    <h3>HTML</h3>
+                    <p>Conhecimentos na estruturação de páginas para sites.</p>
+                    <span class="habilidade-tag">Desenvolvimento web</span>
+                </article>
+
+                <article class="habilidade-card">
+                    <div class="habilidade-icone">🎀</div>
+                    <h3>CSS</h3>
+                    <p>Conhecimentos na estilização de páginas, cores e layouts.</p>
+                    <span class="habilidade-tag">Design web</span>
+                </article>
+
+                <article class="habilidade-card">
+                    <div class="habilidade-icone">💻</div>
+                    <h3>JavaScript</h3>
+                    <p>Conhecimentos para criar interações e dar vida às páginas.</p>
+                    <span class="habilidade-tag">Interatividade</span>
+                </article>
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section class="section reveal" id="projetos">
+            <div class="titulo-secao">
+                <p class="etiqueta">♡ Feitos com carinho</p>
+                <h2>Meus <span class="rosa">projetos</span></h2>
+                <p class="texto-secao">
+                    Alguns trabalhos que representam minha criatividade.
+                </p>
+            </div>
+
+            <div class="projetos-grid">
+                <!-- PROJETO DE CONFEITARIA -->
+                <article class="projeto-card">
+                    <div class="projeto-capa capa-confeitaria">
+                        <span class="projeto-emoji" aria-hidden="true">🧁</span>
+                        <span class="projeto-categoria">CONFEITARIA</span>
+                        <span class="capa-coracao" aria-hidden="true">♡</span>
+                    </div>
+
+                    <div class="projeto-conteudo">
+                        <p class="projeto-numero">PROJETO 01</p>
+                        <h3>Doce Encanto</h3>
+
+                        <p>
+                            Um projeto de confeitaria criado para apresentar
+                            doces, bolos e outras delícias de maneira bonita
+                            e organizada.
+                        </p>
+
+                        <div class="projeto-tags">
+                            <span>Confeitaria</span>
+                            <span>Criatividade</span>
+                        </div>
+
+                        <button class="botao-coracao" type="button">
+                            ♥ <span>Enviar carinho</span>
+                        </button>
+                    </div>
+                </article>
+
+                <!-- PROJETO DE CLÍNICA -->
+                <article class="projeto-card">
+                    <div class="projeto-capa capa-clinica">
+                        <span class="projeto-emoji" aria-hidden="true">🩺</span>
+                        <span class="projeto-categoria">SAÚDE</span>
+                        <span class="capa-coracao" aria-hidden="true">♡</span>
+                    </div>
+
+                    <div class="projeto-conteudo">
+                        <p class="projeto-numero">PROJETO 02</p>
+                        <h3>Clínica Vida</h3>
+
+                        <p>
+                            Um projeto de clínica com uma proposta visual
+                            acolhedora, organizada e fácil de navegar.
+                        </p>
+
+                        <div class="projeto-tags">
+                            <span>Saúde</span>
+                            <span>Design</span>
+                        </div>
+
+                        <button class="botao-coracao" type="button">
+                            ♥ <span>Enviar carinho</span>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="section reveal" id="contato">
+            <div class="titulo-secao">
+                <p class="etiqueta">♡ Vamos conversar?</p>
+                <h2>Entre em <span class="rosa">contato</span></h2>
+                <p class="texto-secao">
+                    Deixe uma mensagem para a Amanda.
+                </p>
+            </div>
+
+            <form class="formulario" id="formContato">
+                <div class="campo">
+                    <label for="nome">Seu nome</label>
+                    <input id="nome" name="nome" type="text"
+                           placeholder="Como você se chama?" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Seu e-mail</label>
+                    <input id="email" name="email" type="email"
+                           placeholder="seuemail@exemplo.com" required>
+                </div>
+
+                <div class="campo">
+                    <label for="mensagem">Sua mensagem</label>
+                    <textarea id="mensagem" name="mensagem" rows="5"
+                              placeholder="Escreva sua mensagem aqui..."
+                              required></textarea>
+                </div>
+
+                <button class="botao botao-principal" type="submit">
+                    Preparar mensagem ♡
+                </button>
+
+                <p class="aviso-formulario" id="avisoFormulario" role="status">
+                    O formulário prepara a mensagem, mas ainda não envia dados para um servidor.
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="rodape">
+        <a href="#inicio" class="logo logo-rodape">♡ Amanda<span>.dev</span></a>
+        <p>Feito com carinho e criatividade. ♥</p>
+        <p>© <span id="anoAtual"></span> Amanda. Todos os direitos reservados.</p>
+        <a href="#inicio" class="voltar-topo">Voltar ao início ↑</a>
+    </footer>
+
+    <div id="mensagemFlutuante" class="mensagem-flutuante"
+         role="status" aria-live="polite"></div>
+</body>
+</html>
